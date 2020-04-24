@@ -6,6 +6,7 @@
 - docker desktop configured with 6GB RAM
 - WSL 1.x
 tested with Ubuntu 18.04
+![image](https://user-images.githubusercontent.com/8255007/80176135-e8f4e000-85f7-11ea-8dea-d12bd710a0d2.png)
 
 ## expose docker daemon from wsl
 in order do access docker daemon tru WSL, we need to export the docker host form WSL.
