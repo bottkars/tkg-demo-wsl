@@ -1,0 +1,9 @@
+.direnv
+.direnv/*
+*/.direnv/*
+*/.direnv
+kubeconf*.json
+translation
+*/.azure/*
+*/source/*
+*/.azure/
