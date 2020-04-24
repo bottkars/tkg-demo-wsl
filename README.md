@@ -2,7 +2,8 @@
 
 ## Requirements 
 - all host bootstrap host requirements from [Tanzu Bootstrap Prerequisits](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.0/vmware-tanzu-kubernetes-grid-10/GUID-install-tkg-set-up-tkg.html#prereqs)
-- docker desktop configured/started for linux containers
+- docker desktop configured/started for linux containers  
+- docker desktop configured with 6GB RAM
 - WSL 1.x
 tested with Ubuntu 18.04
 
