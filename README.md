@@ -16,8 +16,8 @@ From WSL we export
 ```bash
 export DOCKER_HOST=tcp://localhost:2375
 ```
-tkg --ui will use xdg-open to start a Browser window.
-therefore, we use powershell to start a browser.
+tkg --ui will use xdg-open to start a Browser window. 
+therefore, we use powershell to start a browser. 
 use the following code to create a xdg-oben script in */usr/local/bin*
 ```bash
 sudo tee /usr/local/bin/xdg-open <<EOF
@@ -26,5 +26,7 @@ powershell.exe -c start "'\$@'"
 EOF
 sudo chmod +x /usr/local/bin/xdg-open
 ```
-
+start tkg init with --ui
+```bash
 tkg init --ui
+```
