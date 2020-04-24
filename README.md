@@ -1,11 +1,12 @@
 # tkg-demo from Windows using WSL ( Windows Subsystem for Linux )
 
-## Requiremmentd
-- docker desktop
+## Requirements 
+- all host bootstrap host requirements from [Tanzu Bootstrap Prerequisits](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.0/vmware-tanzu-kubernetes-grid-10/GUID-install-tkg-set-up-tkg.html#prereqs)
+- docker desktop configured/started for linux containers
 - WSL 1.x
 tested with Ubuntu 18.04
 
-## expose docker deamon from wsl
+## expose docker daemon from wsl
 in order do access docker daemon tru WSL, we need to export the docker host form WSL.
 to do so, we need to check
 *Expose daemon on tcp://localhost:2375 without TLS*
@@ -30,3 +31,5 @@ start tkg init with --ui
 ```bash
 tkg init --ui
 ```
+
+this should open your default browser (tested with edge-chromium and chrome)
